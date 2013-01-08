@@ -1,0 +1,57 @@
+<head>
+  <title>Showcase Showdown</title>
+	<link rel='stylesheet' type='text/css' href='ShowcaseShowdownCSS.css'/>
+</head>
+<body>
+	<h1>
+		<p id='p1'><b>Showcase Showdown!</b></br>
+		<img src="http://game-shows.chris-place.com/shows/price-is-right/images/showcase-1.jpg" style="align:center" height='180' width='240'></p>
+	</h1>
+	<div id="gamearea">
+	<script type="text/javascript" src="ShowcaseShowdown.js"></script>
+		<script type="text/javascript">document.write("Welcome " + name + " and Ethel to our Showcase Showdown!");</script>
+		Here are today's Prizes!
+		<table class="center" id="PrizeTables">
+		<tr>
+			<td><table id="PlayerPrizes">
+			<thead>
+			<script type="text/javascript">document.write(name + "'s Prizes");</script>
+			</thead>
+			<tbody>
+				<tr>
+				<th><script type="text/javascript">document.write(PlayerPrize1.name);</script></th>
+				<th><script type="text/javascript">document.write(PlayerPrize2.name);</script></th>
+				<th><script type="text/javascript">document.write(PlayerPrize3.name);</script></th>
+				<tr>
+				<td id="Prize1"><script type="text/javascript">document.write('<a href="' + PlayerPrize1.imgURL + '">' + '<img src="' + PlayerPrize1.imgURL + '" height="200" width="200"></img></a>');</script></td>
+				<td id="Prize1"><script type="text/javascript">document.write('<a href="' + PlayerPrize2.imgURL + '">' + '<img src="' + PlayerPrize2.imgURL + '" height="200" width="200"></img></a>');</script></td>
+				<td id="Prize1"><script type="text/javascript">document.write('<a href="' + PlayerPrize3.imgURL + '">' + '<img src="' + PlayerPrize3.imgURL + '" height="200" width="200"></img></a>');</script></td>
+				</tr>
+			<tbody>
+			</table>
+			Enter Your Bid: <input id='pbid' type='number' maxlength='10'/>
+			<p id='p2'></p>
+			</td>
+			<td><table id="EthelPrizes">
+			<thead>
+			Ethel's Prizes
+			</thead>
+				<tr>
+				<th><script type="text/javascript">document.write(EthelPrize1.name);</script></th>
+				<th><script type="text/javascript">document.write(EthelPrize2.name);</script></th>
+				<th><script type="text/javascript">document.write(EthelPrize3.name);</script></th>
+				<tr>
+				<td id="Prize1"><script type="text/javascript">document.write('<a href="' + EthelPrize1.imgURL + '">' + '<img src="' + EthelPrize1.imgURL + '" height="200" width="200"></img></a>');</script></td>
+				<td id="Prize1"><script type="text/javascript">document.write('<a href="' + EthelPrize2.imgURL + '">' + '<img src="' + EthelPrize2.imgURL + '" height="200" width="200"></img></a>');</script></td>
+				<td id="Prize1"><script type="text/javascript">document.write('<a href="' + EthelPrize3.imgURL + '">' + '<img src="' + EthelPrize3.imgURL + '" height="200" width="200"></img></a>');</script></td>
+				</tr>
+			</table>
+			Ethel's bid: <b><script type='text/javascript'>document.write('$' + EthelBid);</script></b>
+			<p id='p3'></p>
+			</td>
+		</tr>
+		</table>
+		<p id='p4'></p>
+		<input type='button' onclick='placeBid()' value='Place Bid!'/>
+	</div>	
+</body>
