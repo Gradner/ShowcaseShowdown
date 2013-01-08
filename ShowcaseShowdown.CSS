@@ -1,0 +1,63 @@
+body {
+  background-color:#8B008B;
+}
+h1 {
+	top:-5px;
+	text-align:center;
+	position: relative;
+	background-color: #B80000;
+	color:#FF8C00;
+	border-top-left-radius: 50px;
+	border-top-right-radius: 50px;
+	height: 250px;
+	font-family: 'Meriyo UI';
+	font-size: 50px;
+	padding-bottom:0;
+}
+#gamearea {
+	background-color:#FF8C00;
+	position:relative;
+	top:-39px;
+	color: #B80000;
+	border-left: 10px solid #B80000;
+	border-right: 10px solid #B80000;
+	border-bottom: 10px solid#B80000;
+	text-align:center;
+	border-bottom-left-radius: 50px;
+	border-bottom-right-radius: 50px;
+	height:400px;
+}
+table.center{
+margin-left:auto;
+margin-right:auto;
+}
+thead.center{
+margin-left:auto;
+margin-right:auto;
+}
+#PrizeTables {
+	text-align:center;
+	width:1200px;
+	height:250px;
+	color:#B80000;
+}
+#PlayerPrizes {
+	border-left: 2px solid #B80000;
+	border-right: 2px solid #B80000;
+	border-bottom: 2px solid #B80000;
+	border-top: 2px solid #B80000;
+	text-align:center;
+	width:600px;
+	height:250px;
+	color:#B80000;
+}
+#EthelPrizes {
+	border-left: 2px solid #B80000;
+	border-right: 2px solid #B80000;
+	border-bottom: 2px solid #B80000;
+	border-top: 2px solid #B80000;
+	text-align:center;
+	width:600px;
+	height:250px;
+	color:#B80000;
+}
